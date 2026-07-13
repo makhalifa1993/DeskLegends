@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeskLegends — Become the Hero of Your Story</title>
+    <meta name="description" content="DeskLegends transforms meaningful life moments into handcrafted collectible art. Museum-quality resin sculptures, individually crafted and hand-finished." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- ==================== NAVBAR ==================== -->
+    <header id="navbar" class="navbar">
+      <nav class="nav-inner">
+        <a href="#top" class="nav-logo" data-scroll>DeskLegends</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#moments" data-scroll>Collections</a>
+          <a href="#process" data-scroll>How It's Made</a>
+          <a href="#stories" data-scroll>Stories</a>
+          <a href="#studio" data-scroll>The Studio</a>
+          <a href="#faq" data-scroll>FAQ</a>
+        </div>
+        <a href="#commission" class="nav-cta" data-scroll>Reserve Commission</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#moments" data-scroll>Collections</a>
+      <a href="#process" data-scroll>How It's Made</a>
+      <a href="#stories" data-scroll>Stories</a>
+      <a href="#studio" data-scroll>The Studio</a>
+      <a href="#faq" data-scroll>FAQ</a>
+      <a href="#commission" class="nav-cta" data-scroll>Reserve Commission</a>
+    </div>
+
+    <main id="top">
+      <!-- ==================== HERO ==================== -->
+      <section class="hero">
+        <div class="hero-bg">
+          <div class="hero-glow" id="heroGlow1"></div>
+          <div class="hero-glow hero-glow-2" id="heroGlow2"></div>
+          <div class="hero-grain"></div>
+        </div>
+
+        <div class="hero-content">
+          <!-- Stage 0: Curiosity -->
+          <div class="hero-stage active" id="stage0">
+            <p class="hero-stage-text">Some moments</p>
+            <p class="hero-stage-text">change everything.</p>
+          </div>
+
+          <!-- Stage 1: Recognition -->
+          <div class="hero-stage" id="stage1">
+            <p class="hero-sub">You've lived one of these.</p>
+            <div class="hero-moments" id="heroMoments">
+              <span class="hero-moment-pill">Promotion</span>
+              <span class="hero-moment-pill">Graduation</span>
+              <span class="hero-moment-pill">Wedding</span>
+              <span class="hero-moment-pill">Startup</span>
+              <span class="hero-moment-pill">Family</span>
+              <span class="hero-moment-pill">Victory</span>
+            </div>
+          </div>
+
+          <!-- Stage 2: Imagination -->
+          <div class="hero-stage" id="stage2">
+            <div class="hero-imagination">
+              <p class="hero-stage-text-lg">What if you could</p>
+              <p class="hero-stage-text-lg">hold that memory</p>
+              <p class="hero-stage-text-lg gold-shimmer">forever?</p>
+            </div>
+          </div>
+
+          <!-- Stage 3: Reveal -->
+          <div class="hero-stage" id="stage3">
+            <div class="hero-reveal">
+              <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">DeskLegends</span>
+                <span class="eyebrow-line"></span>
+              </div>
+              <h1 class="hero-title">Become the Hero<br />of Your Story</h1>
+              <p class="hero-description">
+                Transform your most meaningful milestone into a handcrafted collectible
+                designed to live on your desk, inspire your future, and preserve your legacy.
+              </p>
+              <div class="hero-cta-group">
+                <a href="#commission" class="btn btn-primary" data-scroll>Reserve Your Commission</a>
+                <a href="#process" class="btn btn-secondary" data-scroll>Discover the Process</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll" id="heroScroll">
+          <button class="scroll-indicator" data-scroll-target="#moments">
+            <span class="scroll-text">Scroll</span>
+            <span class="scroll-arrow">↓</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ==================== LIFE MOMENTS ==================== -->
+      <section id="moments" class="section section-dark">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Life Moments</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Every story begins<br />with a defining moment.</h2>
+          </div>
+          <div class="moments-grid">
+            <div class="moment-card reveal" data-reveal data-delay="0">
+              <div class="moment-icon"><i class="icon-briefcase"></i></div>
+              <h3 class="moment-title">Promotion</h3>
+              <p class="moment-desc">Years of persistence, finally recognized.</p>
+            </div>
+            <div class="moment-card reveal" data-reveal data-delay="100">
+              <div class="moment-icon"><i class="icon-graduation-cap"></i></div>
+              <h3 class="moment-title">Graduation</h3>
+              <p class="moment-desc">The day everything you studied became real.</p>
+            </div>
+            <div class="moment-card reveal" data-reveal data-delay="200">
+              <div class="moment-icon"><i class="icon-heart"></i></div>
+              <h3 class="moment-title">Wedding</h3>
+              <p class="moment-desc">Two lives becoming one shared story.</p>
+            </div>
+            <div class="moment-card reveal" data-reveal data-delay="0">
+              <div class="moment-icon"><i class="icon-rocket"></i></div>
+              <h3 class="moment-title">Business Launch</h3>
+              <p class="moment-desc">The moment you bet on yourself.</p>
+            </div>
+            <div class="moment-card reveal" data-reveal data-delay="100">
+              <div class="moment-icon"><i class="icon-users"></i></div>
+              <h3 class="moment-title">Family</h3>
+              <p class="moment-desc">The people who make it all worthwhile.</p>
+            </div>
+            <div class="moment-card reveal" data-reveal data-delay="200">
+              <div class="moment-icon"><i class="icon-trophy"></i></div>
+              <h3 class="moment-title">Victory</h3>
+              <p class="moment-desc">A championship earned, never given.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PROCESS ==================== -->
+      <section id="process" class="section section-surface">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">How Legends Are Made</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Where craftsmanship<br />meets technology.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-step reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>01</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">Share Your Photos</h3>
+                  <p class="timeline-desc">Send us reference photos and tell us the story behind your milestone.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-camera"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+            <div class="timeline-step reverse reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>02</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">Digital Artist</h3>
+                  <p class="timeline-desc">Our sculptors digitally craft your collectible with artistic precision.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-pen-tool"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+            <div class="timeline-step reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>03</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">Approval</h3>
+                  <p class="timeline-desc">Review and approve every detail before production begins.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-check"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+            <div class="timeline-step reverse reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>04</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">16K Resin Printing</h3>
+                  <p class="timeline-desc">Ultra-high-resolution resin printing captures every fine detail.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-printer"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+            <div class="timeline-step reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>05</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">Hand Painting</h3>
+                  <p class="timeline-desc">Each collectible is individually hand-finished and painted.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-brush"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+            <div class="timeline-step reverse reveal" data-reveal data-variant="left">
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="timeline-number"><span>06</span><span class="timeline-dash"></span></div>
+                  <h3 class="timeline-title">Packaging</h3>
+                  <p class="timeline-desc">Delivered in premium packaging with a certificate of authenticity.</p>
+                </div>
+              </div>
+              <div class="timeline-icon"><i class="icon-package"></i></div>
+              <div class="timeline-spacer"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CRAFTSMANSHIP ==================== -->
+      <section class="section section-dark">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Craftsmanship</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Perfection lives<br />in the smallest details.</h2>
+          </div>
+          <div class="craft-grid reveal" data-reveal data-variant="scale">
+            <div class="craft-item craft-large">
+              <img src="https://images.pexels.com/photos/8501769/pexels-photo-8501769.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Hand painting detail" loading="lazy" />
+              <div class="craft-overlay">
+                <h3 class="craft-title">Every Detail Matters</h3>
+                <p class="craft-caption">Hand-painted with precision brushes.</p>
+              </div>
+            </div>
+            <div class="craft-item">
+              <img src="https://images.pexels.com/photos/12268465/pexels-photo-12268465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="3D printing" loading="lazy" />
+              <div class="craft-overlay">
+                <h3 class="craft-title">Ultra-High Resolution</h3>
+                <p class="craft-caption">16K resin printing captures every pore.</p>
+              </div>
+            </div>
+            <div class="craft-item">
+              <img src="https://images.pexels.com/photos/6714293/pexels-photo-6714293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sculpting" loading="lazy" />
+              <div class="craft-overlay">
+                <h3 class="craft-title">Sculpted by Hand</h3>
+                <p class="craft-caption">Digital artistry meets traditional craft.</p>
+              </div>
+            </div>
+            <div class="craft-item craft-wide">
+              <img src="https://images.pexels.com/photos/5608883/pexels-photo-5608883.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Museum finish" loading="lazy" />
+              <div class="craft-overlay">
+                <h3 class="craft-title">Museum-Quality Finish</h3>
+                <p class="craft-caption">Individually inspected and refined.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONFIGURATOR ==================== -->
+      <section class="section section-surface">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Configurator</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">What would yours<br />look like?</h2>
+          </div>
+          <div class="config-layout">
+            <!-- Preview -->
+            <div class="config-preview reveal" data-reveal data-variant="scale">
+              <div class="config-preview-box">
+                <div class="config-glow"></div>
+                <div class="config-statue" id="configStatue">
+                  <svg viewBox="0 0 200 280" class="statue-svg" fill="none">
+                    <rect x="60" y="250" width="80" height="20" rx="4" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+                    <rect x="70" y="240" width="60" height="12" rx="2" fill="#111111" stroke="#D4AF37" stroke-width="0.5" opacity="0.4" />
+                    <path d="M100 240 L100 180 Q100 160 85 150 L75 130 Q70 110 80 95 Q90 80 100 80 Q110 80 120 95 Q130 110 125 130 L115 150 Q100 160 100 180 L100 240" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1" opacity="0.7" />
+                    <circle cx="100" cy="65" r="22" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1" opacity="0.7" />
+                    <path d="M75 95 Q60 100 55 120 L65 130" fill="#1A1A1A" stroke="#D4AF37" stroke-width="0.8" opacity="0.5" />
+                    <path d="M125 95 Q140 100 145 120 L135 130" fill="#1A1A1A" stroke="#D4AF37" stroke-width="0.8" opacity="0.5" />
+                  </svg>
+                </div>
+                <div class="config-info">
+                  <p class="config-info-label">Your Collectible</p>
+                  <h3 class="config-info-title" id="configStory">Career Milestone</h3>
+                  <p class="config-info-meta" id="configMeta">Classic &middot; Standing Proud</p>
+                </div>
+                <div class="config-corner config-corner-tl"></div>
+                <div class="config-corner config-corner-tr"></div>
+                <div class="config-corner config-corner-bl"></div>
+                <div class="config-corner config-corner-br"></div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <div class="config-controls">
+              <div class="config-group reveal" data-reveal data-variant="left">
+                <p class="config-label">Choose Your Story</p>
+                <div class="config-pills" data-config-group="story">
+                  <button class="config-pill active" data-value="Career Milestone">Career Milestone</button>
+                  <button class="config-pill" data-value="Graduation">Graduation</button>
+                  <button class="config-pill" data-value="Wedding Day">Wedding Day</button>
+                  <button class="config-pill" data-value="Family Portrait">Family Portrait</button>
+                  <button class="config-pill" data-value="Gaming Achievement">Gaming Achievement</button>
+                  <button class="config-pill" data-value="Personal Triumph">Personal Triumph</button>
+                </div>
+              </div>
+              <div class="config-group reveal" data-reveal data-variant="left" data-delay="100">
+                <p class="config-label">Choose Your Style</p>
+                <div class="config-cards" data-config-group="style">
+                  <button class="config-card active" data-value="Classic" data-desc="Timeless, museum-quality finish">
+                    <span class="config-radio"></span>
+                    <span class="config-card-title">Classic</span>
+                    <span class="config-card-desc">Timeless, museum-quality finish</span>
+                  </button>
+                  <button class="config-card" data-value="Bronze" data-desc="Warm metallic patina">
+                    <span class="config-radio"></span>
+                    <span class="config-card-title">Bronze</span>
+                    <span class="config-card-desc">Warm metallic patina</span>
+                  </button>
+                  <button class="config-card" data-value="Monochrome" data-desc="Sculpted in grayscale">
+                    <span class="config-radio"></span>
+                    <span class="config-card-title">Monochrome</span>
+                    <span class="config-card-desc">Sculpted in grayscale</span>
+                  </button>
+                  <button class="config-card" data-value="Full Color" data-desc="Hand-painted with lifelike detail">
+                    <span class="config-radio"></span>
+                    <span class="config-card-title">Full Color</span>
+                    <span class="config-card-desc">Hand-painted with lifelike detail</span>
+                  </button>
+                </div>
+              </div>
+              <div class="config-group reveal" data-reveal data-variant="left" data-delay="200">
+                <p class="config-label">Choose Your Pose</p>
+                <div class="config-pills" data-config-group="pose">
+                  <button class="config-pill active" data-value="Standing Proud">Standing Proud</button>
+                  <button class="config-pill" data-value="Seated at Desk">Seated at Desk</button>
+                  <button class="config-pill" data-value="Action Pose">Action Pose</button>
+                  <button class="config-pill" data-value="Holding Trophy">Holding Trophy</button>
+                  <button class="config-pill" data-value="Custom Pose">Custom Pose</button>
+                </div>
+              </div>
+              <div class="reveal" data-reveal data-delay="300">
+                <a href="#commission" class="config-link" data-scroll>
+                  Reserve this commission <span class="config-link-arrow">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== COLLECTOR STORIES ==================== -->
+      <section id="stories" class="section section-dark">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Collector Stories</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Real people.<br />Real milestones.</h2>
+          </div>
+          <div class="stories-grid">
+            <div class="story-card reveal" data-reveal data-delay="0">
+              <div class="story-image">
+                <img src="https://images.pexels.com/photos/13848734/pexels-photo-13848734.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ahmed K." loading="lazy" />
+                <div class="story-image-overlay">
+                  <span class="story-badge">First Promotion</span>
+                </div>
+              </div>
+              <div class="story-quote-icon">"</div>
+              <p class="story-quote">When I placed it on my desk, I remembered why I spent ten years building my company. It was worth every moment.</p>
+              <div class="story-author">
+                <p class="story-name">Ahmed K.</p>
+                <p class="story-role">Software Engineer</p>
+              </div>
+            </div>
+            <div class="story-card reveal" data-reveal data-delay="100">
+              <div class="story-image">
+                <img src="https://images.pexels.com/photos/14648910/pexels-photo-14648910.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sarah M." loading="lazy" />
+                <div class="story-image-overlay">
+                  <span class="story-badge">Wedding Anniversary</span>
+                </div>
+              </div>
+              <div class="story-quote-icon">"</div>
+              <p class="story-quote">My wife cried when she opened the box. It captured our wedding day in a way no photograph ever could.</p>
+              <div class="story-author">
+                <p class="story-name">Sarah M.</p>
+                <p class="story-role">Architect</p>
+              </div>
+            </div>
+            <div class="story-card reveal" data-reveal data-delay="200">
+              <div class="story-image">
+                <img src="https://images.pexels.com/photos/20375800/pexels-photo-20375800.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dr. James L." loading="lazy" />
+                <div class="story-image-overlay">
+                  <span class="story-badge">Doctorate</span>
+                </div>
+              </div>
+              <div class="story-quote-icon">"</div>
+              <p class="story-quote">I commissioned one after my PhD defense. Now it sits in my office — a daily reminder of what persistence creates.</p>
+              <div class="story-author">
+                <p class="story-name">Dr. James L.</p>
+                <p class="story-role">Research Scientist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== MEET THE ARTIST ==================== -->
+      <section id="studio" class="section section-surface">
+        <div class="container">
+          <div class="artist-layout">
+            <div class="artist-image reveal" data-reveal data-variant="left">
+              <div class="artist-image-box">
+                <img src="https://images.pexels.com/photos/6714293/pexels-photo-6714293.jpeg?auto=compress&cs=tinysrgb&w=800" alt="The Artist at Work" loading="lazy" />
+              </div>
+              <div class="artist-badge">
+                <p class="artist-badge-label">The Atelier</p>
+                <p class="artist-badge-value">12 Years</p>
+                <p class="artist-badge-desc">of sculpting experience</p>
+              </div>
+            </div>
+            <div class="artist-content reveal" data-reveal data-variant="up" data-delay="150">
+              <div class="eyebrow eyebrow-left">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">Meet The Artist</span>
+              </div>
+              <h2 class="section-title text-left">Every collectible begins<br />with a conversation.</h2>
+              <div class="artist-text">
+                <p>Behind every DeskLegend is a digital artist who treats your story as their own. Each commission is individually sculpted — never automated, never mass-produced.</p>
+                <p>We combine traditional sculpting principles with advanced digital tools and ultra-high-resolution resin printing. Every detail is reviewed, refined, and approved before a single layer is printed.</p>
+                <p>Your story. Your standards. Our craftsmanship.</p>
+              </div>
+              <div class="artist-stats">
+                <div class="artist-stat">
+                  <p class="artist-stat-value">500+</p>
+                  <p class="artist-stat-label">Collectibles crafted</p>
+                </div>
+                <div class="artist-stat">
+                  <p class="artist-stat-value">16K</p>
+                  <p class="artist-stat-label">Resin resolution</p>
+                </div>
+                <div class="artist-stat">
+                  <p class="artist-stat-value">100%</p>
+                  <p class="artist-stat-label">Hand finished</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== INSTAGRAM FEED ==================== -->
+      <section class="section section-dark">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Behind the Scenes</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">The studio, unfiltered.</h2>
+            <p class="section-subtitle">Follow the craft on Instagram.</p>
+          </div>
+          <div class="instagram-grid">
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="0" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/13971471/pexels-photo-13971471.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Finished collectible" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">Every detail matters.</p>
+                <p class="instagram-category">Finished Collectible</p>
+              </div>
+            </a>
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="80" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/8501769/pexels-photo-8501769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Work in progress" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">Crafted by hand.</p>
+                <p class="instagram-category">Work in Progress</p>
+              </div>
+            </a>
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="160" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/12268465/pexels-photo-12268465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Studio process" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">Built layer by layer.</p>
+                <p class="instagram-category">Studio Process</p>
+              </div>
+            </a>
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="0" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/5608883/pexels-photo-5608883.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Museum quality" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">Museum-quality.</p>
+                <p class="instagram-category">Finished Collectible</p>
+              </div>
+            </a>
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="80" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/6714293/pexels-photo-6714293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="One collector" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">One collector. One story.</p>
+                <p class="instagram-category">Studio Process</p>
+              </div>
+            </a>
+            <a href="#" class="instagram-item reveal" data-reveal data-variant="scale" data-delay="160" onclick="event.preventDefault()">
+              <img src="https://images.pexels.com/photos/18296466/pexels-photo-18296466.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Precision" loading="lazy" />
+              <div class="instagram-overlay">
+                <span class="instagram-icon">⌕</span>
+                <p class="instagram-caption">Precision in every layer.</p>
+                <p class="instagram-category">Work in Progress</p>
+              </div>
+            </a>
+          </div>
+          <div class="reveal" data-reveal>
+            <div class="instagram-handle">
+              <span class="instagram-handle-icon">⌕</span> @desklegends
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== COMMISSION ==================== -->
+      <section id="commission" class="section section-surface section-commission">
+        <div class="commission-glow"></div>
+        <div class="container container-narrow">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Reserve Your Commission</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Your story deserves<br />more than a memory.</h2>
+          </div>
+          <div class="commission-form-wrapper reveal" data-reveal data-variant="up" data-delay="100">
+            <form class="commission-form" id="commissionForm">
+              <div class="form-field">
+                <label class="form-label">Your Name</label>
+                <input type="text" name="name" required placeholder="Enter your name" class="form-input" />
+              </div>
+              <div class="form-field">
+                <label class="form-label">Your Email</label>
+                <input type="email" name="email" required placeholder="you@example.com" class="form-input" />
+                <p class="form-hint">Please enter a valid email so we can contact you about your commission.</p>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Your Milestone</label>
+                <div class="form-pills" id="milestonePills">
+                  <button type="button" class="form-pill" data-value="Promotion">Promotion</button>
+                  <button type="button" class="form-pill" data-value="Graduation">Graduation</button>
+                  <button type="button" class="form-pill" data-value="Wedding">Wedding</button>
+                  <button type="button" class="form-pill" data-value="Business Launch">Business Launch</button>
+                  <button type="button" class="form-pill" data-value="Retirement">Retirement</button>
+                  <button type="button" class="form-pill" data-value="Other">Other</button>
+                </div>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Tell Us Your Story</label>
+                <textarea name="story" required rows="4" placeholder="Share the moment you want to preserve..." class="form-input form-textarea"></textarea>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Share Your Photos</label>
+                <div class="form-upload">
+                  <span class="form-upload-icon">↑</span>
+                  <p class="form-upload-text">Drag and drop or click to upload reference photos</p>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Reserve Commission</button>
+            </form>
+            <div class="commission-success" id="commissionSuccess" hidden>
+              <div class="commission-success-icon">✓</div>
+              <h3 class="commission-success-title">Your commission has entered our studio.</h3>
+              <p class="commission-success-text" id="successText">Thank you. We'll be in touch soon to begin crafting your collectible. Welcome to DeskLegends.</p>
+              <button class="btn btn-secondary" id="resetForm">Submit another commission</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== FAQ ==================== -->
+      <section id="faq" class="section section-dark">
+        <div class="container container-narrow">
+          <div class="section-header reveal" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">FAQ</span>
+              <span class="eyebrow-line"></span>
+            </div>
+            <h2 class="section-title">Questions, answered.</h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item reveal" data-reveal data-delay="0">
+              <button class="faq-question" data-faq>
+                <span>How long does a commission take?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Each collectible is individually crafted from start to finish. The full process — from digital sculpting to hand finishing — typically takes 4 to 6 weeks. We keep you updated at every stage.</p></div>
+            </div>
+            <div class="faq-item reveal" data-reveal data-delay="60">
+              <button class="faq-question" data-faq>
+                <span>How accurate will the likeness be?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Our artists sculpt every collectible to capture both your appearance and your story. You review and approve the digital sculpt before production begins, ensuring every detail meets your standards.</p></div>
+            </div>
+            <div class="faq-item reveal" data-reveal data-delay="120">
+              <button class="faq-question" data-faq>
+                <span>What materials are used?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Every collectible is produced using professional 16K resin printing technology, then hand-finished and painted by our artists. The result is a museum-quality piece designed to last a lifetime.</p></div>
+            </div>
+            <div class="faq-item reveal" data-reveal data-delay="0">
+              <button class="faq-question" data-faq>
+                <span>Can I customize the pose and accessories?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Absolutely. Every commission is personalized — from pose and expression to clothing, accessories, and display base. Your collectible is uniquely yours.</p></div>
+            </div>
+            <div class="faq-item reveal" data-reveal data-delay="60">
+              <button class="faq-question" data-faq>
+                <span>What does it include?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Each commission includes the collectible, a premium display base, protective packaging, a certificate of authenticity, a collector story card, and a handwritten thank-you note.</p></div>
+            </div>
+            <div class="faq-item reveal" data-reveal data-delay="120">
+              <button class="faq-question" data-faq>
+                <span>Do you ship internationally?</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer"><p>Yes. We carefully package every collectible for safe delivery worldwide. Shipping costs and timelines are confirmed during the commission process.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="footer-cta">
+        <div class="container">
+          <p class="footer-cta-line">Every life tells a story.</p>
+          <p class="footer-cta-line gold-shimmer">Some stories deserve to become collectibles.</p>
+        </div>
+      </div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <p class="footer-logo">DeskLegends</p>
+              <p class="footer-tagline">We transform meaningful milestones into handcrafted collectible art, designed to be remembered for a lifetime.</p>
+              <div class="footer-social">
+                <a href="#" onclick="event.preventDefault()" aria-label="Instagram" class="footer-social-icon">⌕</a>
+                <a href="#" onclick="event.preventDefault()" aria-label="Twitter" class="footer-social-icon">⌕</a>
+                <a href="#" onclick="event.preventDefault()" aria-label="YouTube" class="footer-social-icon">▶</a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <p class="footer-col-title">Company</p>
+              <ul><li><a href="#" onclick="event.preventDefault()">The Studio</a></li><li><a href="#" onclick="event.preventDefault()">Meet the Artist</a></li><li><a href="#" onclick="event.preventDefault()">Stories</a></li><li><a href="#" onclick="event.preventDefault()">Careers</a></li></ul>
+            </div>
+            <div class="footer-col">
+              <p class="footer-col-title">Collections</p>
+              <ul><li><a href="#" onclick="event.preventDefault()">Career</a></li><li><a href="#" onclick="event.preventDefault()">Graduation</a></li><li><a href="#" onclick="event.preventDefault()">Wedding</a></li><li><a href="#" onclick="event.preventDefault()">Family</a></li><li><a href="#" onclick="event.preventDefault()">Gaming</a></li><li><a href="#" onclick="event.preventDefault()">Business</a></li></ul>
+            </div>
+            <div class="footer-col">
+              <p class="footer-col-title">Resources</p>
+              <ul><li><a href="#" onclick="event.preventDefault()">How It's Made</a></li><li><a href="#faq" data-scroll>FAQ</a></li><li><a href="#" onclick="event.preventDefault()">Care Instructions</a></li><li><a href="#" onclick="event.preventDefault()">Shipping</a></li></ul>
+            </div>
+            <div class="footer-col">
+              <p class="footer-col-title">Legal</p>
+              <ul><li><a href="#" onclick="event.preventDefault()">Privacy</a></li><li><a href="#" onclick="event.preventDefault()">Terms</a></li><li><a href="#" onclick="event.preventDefault()">Returns</a></li><li><a href="#" onclick="event.preventDefault()">Cookies</a></li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; <span id="year"></span> DeskLegends. One commission. One collector. One legacy.</p>
+          <p>Crafted with intention.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
