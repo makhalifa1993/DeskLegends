@@ -227,6 +227,3 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 })();
-
-
-/* -------------------- Enhancements Applied -------------------- */
